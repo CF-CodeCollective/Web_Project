@@ -1,5 +1,5 @@
 * {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Monsterrat", sans-serif;
 }
 body {
   margin: 0;
@@ -17,10 +17,17 @@ body {
   opacity: 1;
   -webkit-transition: opacity 0.8s ease, -webkit-transform 1.4s ease;
   transition: opacity 0.8s ease, transform 1.4s ease;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cdn.discordapp.com/attachments/1077727152511926383/1087850436318470305/trim.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
 }
+
 #particles-js {
   height: 100%;
-  background: #393e46;
+  background: black;
   width: 100%;
   position: fixed;
   z-index: -10;
@@ -80,6 +87,7 @@ button:hover {
 h1 {
   color: white;
   font-size: 80px;
+  margin-top: 6.5em;
 }
 
 .title {
