@@ -87,7 +87,8 @@ button:hover {
 h1 {
   color: white;
   font-size: 80px;
-  margin-top: 6.5em;
+  margin-top: 15em;
+  position: absolute;
 }
 
 .title {
