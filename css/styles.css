@@ -1,6 +1,13 @@
+@font-face {
+    font-family: Ethnocentric;
+    src: url("../assets/ethnocentric.otf") format('opentype');
+}
+
 * {
   font-family: "Monsterrat", sans-serif;
+  font-family: Ethnocentric, sans-serif;
 }
+
 body {
   margin: 0;
   padding: 0;
