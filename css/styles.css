@@ -18,7 +18,7 @@ body {
   -webkit-transition: opacity 0.8s ease, -webkit-transform 1.4s ease;
   transition: opacity 0.8s ease, transform 1.4s ease;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://cdn.discordapp.com/attachments/1077727152511926383/1087850436318470305/trim.png");
+    url(../assets/logoBig.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-size: 50%;
@@ -96,4 +96,39 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+h404 {
+    color: silver;
+    font-size: 80px;
+    margin-top: 24px;
+    text-shadow: 1px 1px 2px black;
+}
+
+p404 {
+    color: silver;
+    font-size: 24px;
+    margin-top: 20px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.f404 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f404-0 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f404-b {
+    background-color: slategray;
+}
+
+.f404-p {
+    margin-top: 20px;
 }
