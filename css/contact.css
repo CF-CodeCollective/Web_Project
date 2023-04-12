@@ -102,12 +102,7 @@ p1 {
     font-size: 24px;
 }
 
-.email {
-    font-size: 24px;
-    margin: 0px 50px;
-}
-
-.message {
+.email, .message {
     font-size: 24px;
     margin: 0px 50px;
 }
@@ -118,7 +113,7 @@ p1 {
     justify-content: center;
 }
 
-input {
+input, textarea {
     background-color: #D4DBEA;
     border: solid;
     border-width: 1.8px;
