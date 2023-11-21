@@ -130,3 +130,13 @@ textarea {
   margin-top: -4px;
   font-weight: 700;
 }
+
+[type="submit_nav"] {
+    width: 165px;
+}
+
+.Return{
+    display: block;
+    margin: auto;
+    width: 80%;
+}

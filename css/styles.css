@@ -139,3 +139,7 @@ p404 {
 .f404-p {
     margin-top: 20px;
 }
+
+[type="submit_nav"] {
+    width: 165px;
+}
