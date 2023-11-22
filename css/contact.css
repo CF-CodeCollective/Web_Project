@@ -133,6 +133,7 @@ textarea {
 
 [type="submit_nav"] {
     width: 165px;
+    vertical-align: middle;
 }
 
 .Return{

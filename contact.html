@@ -22,10 +22,10 @@
         <h1>CONTACT US</h1>
     </div>
     <p1>Please fill out your information and we'll contact you as soon as possible.</p1>
-    <form onsubmit="javascript:test()">      
+    <form onsubmit="javascript:test(document.getElementById('submitBox').value); window.open('contact_finish.html')">      
         <input name="name" type="text" class="feedback-input" placeholder="Name" />   
         <input name="email" type="text" class="feedback-input" placeholder="Email" />
-        <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+        <textarea name="text" class="feedback-input" placeholder="Comment" id="submitBox"></textarea>
         <input type="submit" value="SUBMIT"/>
       </form>
     <script src="email.js"></script>
