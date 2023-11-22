@@ -5,7 +5,6 @@
 
 * {
   font-family: "Monsterrat", sans-serif;
-  font-family: Ethnocentric, sans-serif;
 }
 
 body {
@@ -96,6 +95,7 @@ h1 {
   font-size: 80px;
   margin-top: 15em;
   position: absolute;
+  font-family: Ethnocentric, sans-serif;
 }
 
 .title {
