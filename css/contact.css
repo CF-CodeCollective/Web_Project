@@ -14,8 +14,10 @@ nav {
 
 body {
   margin: 0;
+  padding: 0;
   height: 100%;
   background-color: rgb(30, 30, 40);
+  box-sizing: border-box;
 }
 
 button {
@@ -27,6 +29,7 @@ button {
   );
   border-radius: 8px;
   border-style: none;
+  box-sizing: border-box;
   color: #ffffff;
   cursor: pointer;
   flex-shrink: 0;
@@ -54,8 +57,8 @@ button {
 
 [type="submit"]:hover,
 button:hover {
-  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 8px;
-  transition-duration: 0.3s;
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 16px;
+  transition-duration: 0.2s;
 }
 
 h1 {
