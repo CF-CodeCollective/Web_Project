@@ -1,13 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-       emailjs.init("nWXTN94lU2alboz1t");
-   })();
-</script>
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -27,15 +19,11 @@
         <button class="Discord" type="submit_nav" onclick="window.open('https://discord.gg/FXhR4dzv4S', '_blank')">Join Discord</button>
     </nav>
     <div class="title">
-        <h1>CONTACT US</h1>
+        <h1>THANK YOU!</h1>
     </div>
-    <p1>Please fill out your information and we'll contact you as soon as possible.</p1>
-    <form onsubmit="event.preventDefault(); javascript:SendEmail();" id="commentForm">      
-        <input name="from_name" type="text" class="feedback-input" placeholder="Name"/>   
-        <input name="reply_to" type="text" class="feedback-input" placeholder="Email"/>
-        <textarea name="message" class="feedback-input" placeholder="Comment"></textarea>
-        <input type="submit" value="SUBMIT"/>
-      </form>
-    <script src="email.js"></script>
+    <p1>We will review your information and contact you soon.</p1>
+    <h1>
+        <button class="Return" type="submit" onclick="window.open('contact.html')">Return</button>
+    </h1>
 </body>
 </html>
