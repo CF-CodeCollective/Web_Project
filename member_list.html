@@ -1,19 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Code Collective</title>
-    <link rel="stylesheet" href="css/styles.css" />
-    <link
-      rel="shortcut icon"
-      href="assets/logoFull.png"
-      type="image/x-icon"
-    />
-  </head>
-  <body>
-    <div id="particles-js"></div>
+    <title>Current Members</title>
+    <link rel="stylesheet" href="css/members.css" />
+    <link rel="shortcut icon"
+          href="assets/logoFull.png"
+          type="image/x-icon" />
+</head>
+<body>
     <nav>
         <button class="Home" type="submit_nav" onclick="window.location.href = 'index.html'">Home</button>
         <button class="About" type="submit_nav">About Us</button>
@@ -22,10 +19,16 @@
         <button class="Discord" type="submit_nav" onclick="window.open('https://discord.gg/FXhR4dzv4S', '_blank')">Join Discord</button>
     </nav>
     <div class="title">
-      <h1>CODE COLLECTIVE</h1>
+        <h1>CURRENT MEMBERS</h1>
     </div>
-    <div class="about-us"></div>
-    <script src="scripts/particles.js"></script>
-    <script src="scripts/app.js"></script>
-  </body>
+    <div class="member_list">
+		<div class="member">
+			<img src="assets/members/erikp.jpeg" alt="Erik Peterson" class="member_img">
+			<div class"member_info">
+				<h3 class="member_name">Erik Peterson</h3>
+				<p class="member_desc">The president of the Code Collective</p>
+			</div>
+		</div>
+	</div>
+</body>
 </html>
