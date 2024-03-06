@@ -2,8 +2,8 @@ const members = [
 {
 	name: "Erik Peterson",
 	desc: "President of the Code Collective.",
-	//img: "assets/members/erikp.jpeg"
-	img: "https://cf.instructure.com/files/150919728/download?download_frd=1&verifier=DVfaWNNmYT6DNHsPiYMIc6ru30inO80xs52ceZcG"
+	img: "assets/members/erikp.jpg"
+	//img: "https://cf.instructure.com/files/150919728/download?download_frd=1&verifier=DVfaWNNmYT6DNHsPiYMIc6ru30inO80xs52ceZcG"
 },
 {
 	name: "John Business",
