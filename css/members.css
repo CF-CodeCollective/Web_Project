@@ -90,7 +90,6 @@ p1 {
 
 .member_list {
 	align-items: center;
-	display: flex;
 	justify-content: center;
 	color: white;
     font-family: Helvetica, Arial, sans-serif;
@@ -126,4 +125,5 @@ p1 {
 
 .member_img {
 	padding: 10px;
+	border-radius: 10%;
 }
