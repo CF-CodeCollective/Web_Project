@@ -1,3 +1,5 @@
+const canvasAPI_URL = "https://cf.instructure.com/api/v1"
+
 const members = [
 {
 	name: "Erik Peterson",
